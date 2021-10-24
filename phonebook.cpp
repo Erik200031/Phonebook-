@@ -118,8 +118,7 @@ void Phonebook::AddNumber ()
         std::cout << std::endl;
         std::cout << "If you want to exit please input '0'\n";
         std::
-        	cout <<
-        	"or If you want to save changes and jump to 'PROGRAMM MENU' please input any key : ";
+        	cout <<	"or If you want to save changes and jump to 'PROGRAMM MENU' please input any key : ";
         char tmp;
         std::cin >> tmp;
         if (tmp == '0')
